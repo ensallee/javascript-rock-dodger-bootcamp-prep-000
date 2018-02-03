@@ -121,14 +121,14 @@ function moveDodger(e) {
    */
    document.addEventListener('keydown', function(e){
     if(e.which===37){
-      moveDodgerLeft(dodger);
+      moveDodgerLeft();
     } else if (e.which===39){
-      moveDodgerRight(dodger)
+      moveDodgerRight();
     }
-   })
+   });
 }
 
-function moveDodgerLeft(dodger) {
+function moveDodgerLeft() {
   // implement me!
   /**
    * This function should move DODGER to the left
