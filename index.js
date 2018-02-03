@@ -157,7 +157,7 @@ function moveDodgerRight() {
    
    function step(){
      dodger.style.right=`${right-4}px`;
-      if (right<400){
+      if (right>0){
         window.requestAnimationFrame(step);
       }
    }
