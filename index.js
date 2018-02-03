@@ -156,7 +156,7 @@ function moveDodgerRight() {
    var right=parseInt(rightNumbers, 10);
    
    function step(){
-     dodger.style.right=`${left+4}px`;
+     dodger.style.right=`${right-4}px`;
       if (right<400){
         window.requestAnimationFrame(step);
       }
